@@ -31,14 +31,20 @@ body {
 
 .top-header {
   background-color: #FFF;
-  height: 50px;
   margin: 0;
 }
 
-.top-header h2 {
-  line-height: 50px;
+.top-header {
+  background-color: #04BD41;
+}
+
+
+.header-title h3 {
   margin-left: 20px;
   font-weight: 900;
+  color: #FFF;
+  padding: 28px;
+
 }
 
 .nav-menu {

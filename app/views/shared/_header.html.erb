@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SportsCreater</title>
+  <title>プロトレーナー派遣サイト</title>
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -13,20 +13,23 @@
   <script src="slick/slick.min.js"></script>
   </head>
 <body>
+
 <div class="top-header">
-  <h2>Sports Creator</h2>
-</div>
+  <div class="header-title">
+    <h3>プロトレーナー派遣サイト</h3>
+  </div>
 
   <nav class="nav-menu">
     <ul>
-      <li><a href="#">トップへ</a></li>
-      <li class="active"><a href="#">初めての方へ</a></li>
-      <li><a href="#">料金プラン</a></li>
-      <li><a href="#">トレーナー検索</a></li>
-      <li><a href="#">新規登録</a></li>
+      <li><%= link_to 'トップへ', root_path %></li>
+      <li><%= link_to '初めての方へ', static_pages_about_path %></li>
+      <li><%= link_to '料金プラン', static_pages_money_path %></li>
+      <li><%= link_to 'トレーナー検索'  %></li>
+      <li><%= link_to '新規登録'  %></li>
     </ul>
   </nav>
 
+</div>
 
 
 
