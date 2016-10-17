@@ -5,8 +5,11 @@
 // background-inner
 
 .bg-inner {
-  background-color: rgba(0, 0, 0, 0.7);
-}
+        padding-top: 220px;
+        padding-bottom: 220px;
+        background-color: rgba(0, 0, 0, .5);
+        text-align: center;
+      }
 
 
 // home.html.erb
@@ -14,7 +17,7 @@
 .home-title {
   margin-top: 90px;
   margin-bottom: 70px;
-}
+  }
 
 
 
@@ -22,16 +25,57 @@
  // about.html.erb
 
 
- .misson-top {
+ .mission-top {
    background-image: url("sports.jpeg");
- }
+   background-size: contain;
+  }
 
 .mission-title {
   h1 {
-    text-align: center;
-    font-size: 3.2em;
     color: #FFF;
-  }
+    font-size: 65px;
+    -webkit-font-smoothing: antialiased;
+    }
+
+}
+
+
+.about-top {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.msg-right {
+  color: #7994A7;
+  margin-left: 20px;
+}
+
+.msg-head {
+  line-height: 1.7;
+  text-align: center;
+  font-size: 3.5em;
+  color: #7994A7;
+
+}
+
+.quote {
+    font-family: 'Coustard', serif;
+    color: #44dcc0;
+    position: absolute;
+    top: -5px;
+    font-size: 2.0em;
+}
+
+.quote-left {
+
+    margin-left: -10%;
+
+}
+
+.quote-right{
+
+    margin-left: 2%;
+
 }
 
 
@@ -47,6 +91,7 @@
     margin-bottom: 70px;
   }
 }
+
 
 
 .plan-colum {
