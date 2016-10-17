@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>プロトレーナー派遣サイト</title>
+  <title>プロトレーナー育成サイト</title>
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -17,12 +17,12 @@
 <div class="top-header">
   <div class="header-title">
 
+
   <nav>
     <ul>
-      <li><h3>プロトレーナー派遣サイト</h3></li>
-      <li><%= link_to 'トップへ', root_path %></li>
-      <li><%= link_to '初めての方へ', static_pages_about_path %></li>
-      <li><%= link_to '料金プラン', static_pages_money_path %></li>
+      <li><%= link_to 'プロトレーナー育成サイト', root_path, id:"logo" %></li>
+      <li><%= link_to 'ミッション', static_pages_about_path %></li>
+      <li><%= link_to '契約プラン', static_pages_money_path %></li>
       <li><%= link_to 'トレーナー検索'  %></li>
       <li><%= link_to '新規登録'  %></li>
     </ul>
@@ -30,18 +30,6 @@
 </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <%= yield %>
