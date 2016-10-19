@@ -39,22 +39,45 @@ body {
   margin-top: 0;
 }
 
+.header-title h2 {
+  padding: 15px;
+  float: left;
+}
 
-.header-title li a {
+.header-title a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.header-title a {
+  text-decoration: none;
+  color: #FFF;
+
+}
+
+.top-header ul {
+  float: right;
+}
+
+.top-header li {
+  float: left;
+}
+
+.top-header li a {
   text-align: center;
   color: #FFF;
-  float: left;
-  font-size: 18px;
-  padding: 30px;
+  float: right;
+  font-size: 15px;
+  padding-top: 40px;
+  margin-right: 25px;
   text-decoration: none;
 }
 
-  a:hover {
+  li a:hover {
     border-bottom: 3px solid #FFF;
-    padding-bottom: 10px!important;
-
+    padding-bottom: 7px!important;
     }
-  }
+
 
 
 
