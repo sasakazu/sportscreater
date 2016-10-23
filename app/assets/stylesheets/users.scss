@@ -4,7 +4,7 @@
 // users/new.html.erb
 
 .sign-main {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 
@@ -90,20 +90,34 @@
 
 }
 
+
+
 .sns-box {
-  display: block;
   padding: 10px;
 }
 
 .facebook-box {
-  background-color: #5D9CEC;
-  padding: 12px;
-  color: #FFF;
-  border-radius: 5px;
   margin-top: 20px;
-  margin-bottom: 10px;
-  width: 85%;
+  margin-bottom: 20px;
+  width: 80%;
   letter-spacing: 2px;
+
+  a {
+    color: #FFF;
+    display: block;
+    background-color: #5D9CEC;
+    padding: 12px;
+    border-radius: 5px;
+
+  }
+
+  a:hover {
+    text-decoration: none;
+    opacity: .7;
+    color: #FFF;
+    transition: all 0.2s ease-out;
+
+  }
 
   i {
     margin-right: 5px;
@@ -112,17 +126,127 @@
 }
 
 .twitter-box {
-  background-color: #4FC0E8;
-  padding: 12px;
-  color: #FFF;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  width: 85%;
-  letter-spacing: 2px;
+    margin-bottom: 30px;
+    width: 80%;
+    letter-spacing: 2px;
+
+  a {
+    color: #FFF;
+    display: block;
+    background-color: #4FC0E8;
+    padding: 12px;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+    transition: all 0.2s ease-out;
+
+  }
 
   i {
     margin-right: 5px;
   }
 
+
+}
+
+.submit-box {
+  text-align: center;
+
+  input[type = "submit"]{
+    padding: 7px 20px;
+    border: 1px solid #00c4ac;
+    background-color: transparent;
+    color: #00c4ac;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+  }
+  input[type="submit"]:hover {
+
+    background-color: #00c4ac;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+
+.or-2 {
+    text-align: center;
+    color: #04BD41;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sns-yoko {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.facebook {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  letter-spacing: normal;
+
+  a {
+    color: #FFF;
+    display: block;
+    background-color: #5D9CEC;
+    padding: 12px;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+    transition: all 0.2s ease-out;
+
+  }
+
+  i {
+    margin-right: 5px;
+  }
+
+
+
+}
+
+.twitter {
+
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  letter-spacing: normal;
+  margin-left: 10px;
+
+  a {
+    color: #FFF;
+    display: block;
+    background-color: #4FC0E8;
+    padding: 12px;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+    transition: all 0.2s ease-out;
+
+  }
+
+  i {
+    margin-right: 5px;
+  }
 
 }
