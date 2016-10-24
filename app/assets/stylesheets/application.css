@@ -50,7 +50,7 @@ body {
 }
 
 .header-title a {
-  text-decoration: none;
+text-decoration: none!important;
   color: #FFF;
 
 }
@@ -73,10 +73,12 @@ body {
   text-decoration: none;
 }
 
-  li a:hover {
+  .top-header a:hover {
+
     border-bottom: 3px solid #FFF;
-    padding-bottom: 7px!important;
-    }
+    padding-bottom: 7px;
+  }
+
 
 
 

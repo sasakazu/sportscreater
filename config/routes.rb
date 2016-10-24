@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'trainer/discover'
+
   get 'users/new'
 
   root 'static_pages#home'
