@@ -13,7 +13,9 @@ gem 'twitter-bootstrap-rails' # Bootstrapの本体
 
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', group: :development
+# 本番ではpostgressを使用する
+gem 'pg', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
